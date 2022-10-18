@@ -1,0 +1,218 @@
+@media(max-width: 1200px) {
+	.woy {
+		width: 900px;
+	}
+	.son h1 {
+		font-size: 55px;
+	}
+	.son p {
+		font-size: 20px;
+	}
+	.mero {
+		grid-template-areas: "elk jun"
+							 "lar pon"
+							 "vet exp"
+	}
+	.ne h3 {
+		font-size: 14px;
+	}
+}
+@media(max-width: 920px) {
+	.woy {
+		width: 600px;
+	}
+	.santk {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+	.colors {
+		top: 0;
+	}
+	.blue h3,.blue p,.yellow h3, .yellow p, .green h3,.green p, .red h3,.red p  {
+		padding: 20px;
+		text-align: center;
+	}
+	.son h1 {
+   		font-size: 40px;
+	}
+	.son p {
+		font-size: 17px;
+	}
+	.lup {
+		margin-right: 10px;
+	}
+	.mero {
+		grid-template-areas: "elk"
+							 "jun"
+							 "lar"
+							 "pon"
+							 "vet"
+							 "exp";
+	}
+	.driv {
+		flex-direction: column;
+	}
+	.foot ul li:first-child {
+		font-size: 17px;
+	}
+	.foot ul li {
+		font-size: 12px;
+	}
+	.mero div {
+		margin: 0 auto;
+	}
+	.mero div p {
+		font-size: 11px;
+	}
+	.href ul li {
+		font-size: 12px;
+	}
+	.href ul li:first-child {
+		font-size: 20px;
+	}
+	header ul li {
+		margin-right: 15px;
+	}
+	.pril div img {
+		width: 120px;
+	}
+	.logo {
+		width: 130px;
+	}
+	.ime {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media(max-width: 770px) {
+	header ul li a {
+		font-size: 12px;
+	}
+	.foot ul:last-child input {
+		width: 198px;
+		height: 38px;
+	}
+	.ne {
+		padding: 50px 0;
+	}
+	
+}
+@media(max-width: 600px) {
+	.woy {
+		width: 450px;
+	}
+	.foot ul:last-child input {
+		font-size: 10px;
+		max-width: 125px;
+	}
+	.foot ul:last-child p {
+		width: 150px;
+		font-size: 12px;
+	}
+	.logo {
+		width: 100px;
+	}
+	.lyp {
+		font-size: 13px;
+	}
+	header ul li a {
+		font-size: 10px;
+	}
+	header ul li {
+		margin-right: 10px;
+	}
+	.foot div {
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		padding: 30px 0;
+	}
+	.foot ul:last-child div {
+		flex-direction: row;
+	}
+	.foot ul:last-child div img {
+		margin: 0 15px;
+	}
+	.foot ul:last-child button img {
+		margin: 0;
+	}
+	.colors {
+		grid-template-columns: 225px 225px;
+	}
+	
+	header ul {
+		padding: 10px;
+	}
+	
+}
+@media(max-width:480px) {
+	.foot ul:last-child p {
+		width: 175px;
+	}
+	.logo {
+		width: 75px;
+	}
+}
+@media(max-width: 360px)and (max-height: 500px) {
+
+}
+@media(max-width: 460px) {
+	.woy {
+		width: 225px;
+	}
+	.colors {
+		max-width: 225px;
+		grid-template-areas: "blue"
+							 "green"
+							 "yellow"
+							 "red";
+		margin: 0 auto;
+		grid-template-columns: 225px 100px;
+		grid-gap: 30px 0;
+	}
+	.info-mer p, .ne div:first-child p {
+		font-size: 14px;
+	}
+	.colors h3 {
+		font-size: 16px;
+	}
+	.blue h3,.blue p,.yellow h3, .yellow p, .green h3,.green p, .red h3,.red p  {
+		padding: 15px;
+	}
+	.href ul li:first-child,.href ul li {
+		font-size: 8px;
+
+	}
+	.href ul {
+		margin: 0 5px;
+	}
+	.info-mer h2, .ne h2 {
+		font-size: 21px;
+	}
+	.ime img {
+		width: 100%;
+	}
+	.mero div img {
+		width: 100%;
+	}
+	.og {
+		display: none;
+	}
+	.burger {
+		display: block;
+	}
+	.son {
+		margin: 0;
+	}
+	.ne div {
+		flex-direction: column;
+	}
+	.ne div:first-child {
+		flex-direction: row;
+	}
+	.exc {
+		height: 100%;
+	}
+}
